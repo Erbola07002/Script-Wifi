@@ -210,7 +210,7 @@ full_auto(){
 # ====== ACTUALIZACION AUTOMATICA ======
 actualizar_script() {
   echo -e "${CYAN}Buscando actualizaciones...${NC}"
-  url="https://tu-repo-o-gist/aircrack_ifct0109.sh"
+  url="https://github.com/Erbola07002/Script-Wifi/tree/main"
   curl -fsSL "$url" -o "$0" && chmod +x "$0" && ok "¡Script actualizado!" || err "No se pudo actualizar el script."
   pause
 }
